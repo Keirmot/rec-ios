@@ -9,17 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
   @State var isShowingMessage = false
+  
+  var message: String = "Hello Tripadviser"
+  
   var body: some View {
-    VStack {
-      Spacer()
-      Button(action: { isShowingMessage.toggle() }) {
-        Text("Press Here!")
-      }
-      .buttonStyle(.plain)
-      Spacer()
-      Text("Hello Tripadviser")
-        .opacity(isShowingMessage ? 1 : 0)
-        .padding(16)
+    NavigationView {
+      NavigationLink("Press Here!", destination: SecondContentView(label: message))
+        .navigationBarHidden(true)
     }
   }
 }

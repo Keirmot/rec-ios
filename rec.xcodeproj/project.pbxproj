@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59648727274E7869005EFA53 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59648726274E7869005EFA53 /* SecondContentView.swift */; };
+		59648728274E7870005EFA53 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59648726274E7869005EFA53 /* SecondContentView.swift */; };
 		A3D4380127452784007E6C79 /* recApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D4380027452784007E6C79 /* recApp.swift */; };
 		A3D4380327452784007E6C79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D4380227452784007E6C79 /* ContentView.swift */; };
 		A3D4380527452786007E6C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D4380427452786007E6C79 /* Assets.xcassets */; };
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59648726274E7869005EFA53 /* SecondContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentView.swift; sourceTree = "<group>"; };
 		A3D437FD27452784007E6C79 /* rec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D4380027452784007E6C79 /* recApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recApp.swift; sourceTree = "<group>"; };
 		A3D4380227452784007E6C79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 			children = (
 				A3D4380027452784007E6C79 /* recApp.swift */,
 				A3D4380227452784007E6C79 /* ContentView.swift */,
+				59648726274E7869005EFA53 /* SecondContentView.swift */,
 				A3D4380427452786007E6C79 /* Assets.xcassets */,
 				A3D4380627452786007E6C79 /* Preview Content */,
 			);
@@ -258,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3D4380327452784007E6C79 /* ContentView.swift in Sources */,
+				59648727274E7869005EFA53 /* SecondContentView.swift in Sources */,
 				A3D4380127452784007E6C79 /* recApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59648728274E7870005EFA53 /* SecondContentView.swift in Sources */,
 				A3D4381227452786007E6C79 /* recTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

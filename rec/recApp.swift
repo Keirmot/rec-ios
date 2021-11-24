@@ -12,6 +12,7 @@ struct recApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+          
         }
     }
 }
